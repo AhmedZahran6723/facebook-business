@@ -1,0 +1,99 @@
+.btn{font-size: 14px;}
+h1{font-weight: lighter;font-size: 36px; padding-bottom: 16px;}
+ h2{color: #000; font-size: 36px;font-style:normal; font-weight: lighter; margin-top: 20px;}
+  p{color:#000;padding-bottom: 50px;margin-top: 20px;font-size: 16px;}
+  h5{padding-bottom: 10px}
+/*start Header*/
+.header{margin: 0 auto;max-width: 1020px;height: 50px;background-color: #365899;}
+.logo a >img{width: 20px;height: 20px;width: 160px;height: 20px; margin: 15px;margin-left: -10px;}
+.header .header-links{margin: 15px;display: block;color: #fff;}
+.header i{margin-right: 30px;}
+.header .resourses{margin: 15px;color: #fff;}
+.header .support{margin-right: -35px;color: #fff;}
+.header .resourses:hover,.header .support{text-decoration: none;}
+/*start our navbar*/
+.navbar{background-color:#fff;margin-right: -38px;margin-left: -40px;margin-top: -4px;padding-top: 4px;}
+.navbar .btn{margin: 6px;margin-right: -10px;margin-left: 22px;}
+.navbar-light .navbar-nav .nav-link{font-size: 17px;color: #000000;margin-left: -10px;margin-right: 25px;}
+.navbar-light .navbar-nav .nav-link:hover{color:#5aa4f3; }
+.navbar .dropdown-item{color:#5aa4f3;}
+.navbar-expand-lg .navbar-nav .dropdown-menu{width:  1000px;height: 250px;background-color: #fff8f8;}
+.dropdown:hover .dropdown-menu{ display: block;}
+/*End Header*/
+/* carousel*/
+.carousel-control-prev::before, .carousel-control-next::before{content: '';display: block;height: 50px;transform: rotate(45deg);transition: all .4s 0s ease;width: 50px;}
+.carousel-control-prev::before{border-bottom: 2px solid #d6d6d7;border-left: 2px solid #d6d6d7;}
+.carousel-control-next::before {border-right: 2px solid #d6d6d7;border-top: 2px solid #d6d6d7;}
+.carousel-control-prev,.carousel-control-next{cursor: pointer;position: absolute;top: 50%;transform: translate(0, -50%);z-index: 5;}
+.carousel-control-next{ right: 40px;}
+.carousel-control-prev{left: 40px;}
+.carousel img{height: 345px;}
+.carousel-caption .create{display: inline-block;color: #fff;padding-bottom: 70px;}
+.carousel-caption a{color: #fff;}
+.carousel-caption a:link{text-decoration: underline;margin-left: 25px;}
+.carousel-caption a:hover{text-decoration: none;}
+.carousel h2{color: #fff;}
+.carousel p{color: #fff;}
+/*End carousel*/
+/*start first section*/
+.first-section{padding-top: 50px;padding-bottom: 60px;} 
+/*End first section*/
+/*Start Facebook Section*/
+.facebook .btn-primary{margin-top: -80px;}
+.facebook .col-6:first-child{margin-top: 300px;}
+.facebook-inner{position: relative;margin-top: 115px;margin-left: 100px;transform: rotatez(7deg);}
+.facebook{background-image: url("../image/facebook.jpg");height: 850px;background-position: center;background-repeat: no-repeat;background-size: cover;}
+#img1{width: 306px;height: 624px;}
+#img2{width:265px;height: 471px;position: absolute;top: 80px;right: 164px;background-image: url("../image/iphone3.jpg");margin-right: -100px;}
+/*End Facebook Section*/
+/*Start Section Instgram*/
+.instgram{background-image: url("../image/instgramback.jpg");height: 850px;background-position: center;background-repeat: no-repeat;background-size: cover;}
+ #img22{width: 265px;height: 32px;position: absolute;bottom: 77px;left: 20px;}
+ .instgram-inner{position: relative;transform: rotatez(-7deg);margin: 65px;margin-top: 100px;}
+ .instgram-2{margin-bottom: 240px;padding-left: 128px;}
+ .instgram h2{margin-top: 10px;}
+ .instgram p{padding-bottom: 0px;}
+/*End Section Instgram*/
+/*Start Section messenger*/
+.messenger .messenger-1 div:nth-child(odd){ background-color: #4080ff;margin-bottom:20px;border-radius: 20px;border-top-right-radius: 0px;color: white;margin-left: 25px;padding: 10px;}
+.messenger .messenger-1 div:nth-child(even){background-color: #e9ebee;margin-bottom: 20px;border-radius: 20px;border-top-left-radius: 0px;padding: 10px;}
+.messenger-2 h2{margin-top: 10px;}
+.messenger-2 p{padding-bottom: 0px;}
+.messenger-1{margin-top: 50px;}
+.messenger .col:last-child{margin-top: 150px;padding-left: 100px;}
+/*End Section Messenger*/
+/*Start Section audience-network*/
+.audience-network{background-image: url("../image/audienceback.jpg");height: 1124px;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.audience-network .col:first-child h2{color: white;margin-top: 10px;}
+.audience-network .col:first-child p{color: white;padding-bottom: 0px;}
+.audience-network .col:first-child h5{color: white;padding-bottom: 0px;}
+.audience-inner{background-image:url("../image/audience2.jpg");background-position: center;background-position-x:20px;background-repeat: no-repeat;background-position-y: 80px;margin-top: 120px;margin-left: 115px;transform: rotate(5deg);}
+.audience-network .col:first-child{margin-top: 272px;margin-left: 143px;};
+/*End Section audience-network*/
+ /*start sKew Section*/
+ .first-skew {}
+.first-skew p{padding-left: 53px;padding-right: 53px;}
+.second-skew{margin-top: 75px; margin-bottom: -30px;}
+/*End sKew Section*/
+/*Start Section Awareness*/
+.awareness{background-color: rgb(246, 247, 249);height: 850px;}
+#img222{width:265px;height: 471px;position: absolute;top: 80px;right: 64px;background-image: url("../image/awarenessback.jpg");}
+.awareness .awareness1{ margin-top: 301px;padding-left: 132px;}
+/*End Section Awareness*/
+/*Start Section Second-skew*/
+.video{margin-top: 150px; background-image: url("../image/videoback.jpg");background-repeat: no-repeat;background-position: center;height: 850px}
+.video1{background-image: url("../image/videoback.png");background-repeat: no-repeat;background-position: center;}
+/*End Section Second-skew*/
+/*start Section Facebook News*/
+.facebook-news{padding-top: 100px;}
+.facebook-news .col-6:first-child img{max-width: 100%;transition: all .7s ease-in-out;border-top-right-radius: 40px;border-top-left-radius: 40px;border-bottom-right-radius: 25px;margin-bottom: 30px;}
+.facebook-news .col-6:first-child a{color: #000;font-size: 20px;}
+.facebook-news .col-6:first-child p{font-size: 30px;}
+.facebook-news .col-6:first-child h5{letter-spacing:2px;}
+.facebook-news .col-6:first-child img:hover{transform: scale(1.04);}
+.facebook-news .col-6:last-child img{height: 90px;width: 180px;}
+.facebook-news .col-6 .col:first-child{margin-bottom: 50px;}
+.facebook-news .col-6:last-child a{color: #000;}
+.facebook-news .col-6 .col img{border-top-right-radius: 15px;border-top-left-radius: 15px;border-bottom-right-radius: 15px;}
+.facebook-news .col-6:last-child p{margin-bottom: 10px;}
+/*End Section Facebook News*/
