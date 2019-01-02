@@ -1,35 +1,85 @@
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px)
 {
-.flex-container a
-{
-    display:list-item;
+    .header-links a{font-size: 13px;margin-top: 10px}
+    .logo img{height: 13px;}
+    .header-links{margin-top: 10px;}  
+    .main .block {margin-left: 64px;margin-top: 0%}
+    #img1 {width: 285px;height: 465px;}
+    #img2{width: 0;height: 0;}  
+    #img22{width: 243px;bottom: 59px;} 
+    .main .traffic #img22{bottom: 373px;}
+    .main .instgram #img1 {
+        background-size: 262px 430px;
+    }
+    .main .audience #img1 {
+        background-size: 250px 362px;
+    }
+    .main .traffic #img1 {
+        background-size: 242px 400px;
+    }
 }
-.carousel-caption .create
-{
-    padding-bottom: 0px;
-}
-.logo a >img{margin-left: 5px;}
-.navbar-light .navbar-nav .nav-link{margin-left: 15px;}
-
-}
+    
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px)
 {
-.carousel-caption .lead
-{
-    padding-bottom: 0px;
+    .main .block 
+    {
+        margin-left: 64px;
+        margin-top: 0%;
+    }
+    #img1
+     {
+         width: 285px;
+         height: 475px;
+     }
+    #img2 
+    {
+            width: 246px;
+            height: 360px;
+            position: absolute;
+            top: 60px;
+            right: 114px;
+    }
+          #img22
+          {
+              width: 243px;
+              bottom: 59px;
+          }
+          .main .traffic #img22
+          {
+              bottom: 382px;
+          }
+          .main .instgram #img1
+           {
+             background-size: 262px 430px;
+           }
+        .main .audience #img1
+         {
+            background-size: 250px 362px;
+         }
 }
-
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px)
 {
-   #img1 {
-    width: 283px;
-    height: 525px;
+    #img1
+     {
+        width: 260px;
+        height: 624px;
+     }
+    #img2
+     {
+        width: 224px;
+        height: 471px;
+        top: 80px;
+        right: -42px;
+     }
+    #img22
+    {
+        width: 220px;
+    }
 }
-}
-}
+
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px)
@@ -40,5 +90,8 @@
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px)
 {
-    
+    #img2
+     {
+           right: 125px;
+     }
 }
