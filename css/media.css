@@ -5,19 +5,42 @@
     .logo img{height: 13px;}
     .header-links{margin-top: 10px;}  
     .main .block {margin-left: 64px;margin-top: 0%}
+
     #img1 {width: 285px;height: 465px;}
-    #img2{width: 0;height: 0;}  
-    #img22{width: 243px;bottom: 59px;} 
+    #img2{width: 246px;
+        height: 350px;
+        left: 20px;
+        top: 59px;}  
+
+    #img22{width: 243px;bottom: 59px;}
+
     .main .traffic #img22{bottom: 373px;}
-    .main .instgram #img1 {
+
+    .main .instgram #img1
+     {
         background-size: 262px 430px;
     }
+
     .main .audience #img1 {
         background-size: 250px 362px;
     }
+
     .main .traffic #img1 {
         background-size: 242px 400px;
     }
+    .carousel-item h2,h1
+    {
+        font-size: 19px;
+    }
+     .carousel-item p.lead
+    {
+        font-size: 12px;
+    }
+     .carousel img
+   {
+     height:250px;
+   }
+  
 }
     
 /*// Small devices (landscape phones, 576px and up)*/
@@ -93,5 +116,9 @@
     #img2
      {
            right: 125px;
+     }
+     .carousel-caption
+     {
+        margin-bottom: 30px;
      }
 }
